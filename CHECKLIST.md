@@ -13,15 +13,15 @@
 
 ## Phase 1: Decisions
 
-- [ ] Decide: use `releng-otterdog-poc` as the target org
-- [ ] Decide: mirror a real org or create fake repos to simulate migration
-- [ ] Decide: credential provider — `pass` or Bitwarden
-- [ ] Identify which existing orgs/repos the final migration will cover
-- [ ] Decide: minimum number of PR reviewers required before merge
-- [ ] Decide: change freeze windows — when can `otterdog apply` be run?
-- [ ] Decide: who has admin access to `otterdog-configs` repo
-- [ ] Decide: who is the accountable owner for completed migrations
-- [ ] Decide: is a security review required before going live?
+- [x] Decide: use `releng-otterdog-poc` as the target org
+- [x] Decide: mirror a real org or create fake repos to simulate migration — **mirror a real org**
+- [x] Decide: credential provider — **`pass`**
+- [x] Identify which existing orgs/repos the final migration will cover — **all LF Releng managed orgs**
+- [x] Decide: minimum number of PR reviewers required before merge — **0 for POC, 1 Releng sign-off for production**
+- [x] Decide: change freeze windows — **none for POC, production decision deferred until after POC**
+- [x] Decide: who has admin access to `otterdog-configs` repo — **POC: Vanessa only, production: TBD after POC**
+- [x] Decide: who is the accountable owner for completed migrations — **LF Releng team**
+- [x] Decide: is a security review required before going live? — **yes, security review required at every phase of POC and production**
 
 ---
 
