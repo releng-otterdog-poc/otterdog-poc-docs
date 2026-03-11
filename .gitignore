@@ -1,0 +1,9 @@
+# OtterDog runtime cache — do not commit
+.cache/
+
+# OtterDog generated config — committed in Phase 6 after proper import
+# Remove this line in Phase 6 for files that need to be tracked
+orgs/
+
+# Planning checklist — local only, not committed
+CHECKLIST.md
